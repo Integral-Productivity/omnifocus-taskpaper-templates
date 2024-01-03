@@ -1,0 +1,38 @@
+Meta Work:
+Generated from [[draft_open_url]].
+- Define current reality statements @tags(OmniFocus)
+	Describe my current experience. Identify the beliefs, values, resources, environment, etc, that are currently driving my experience.
+- Complete the GTD Natural Planning Model for project @flagged @parallel(false) @context(Any Device) @tags(Stations : OmniFocus)
+	- Define purpose/guiding principles statements @context(Tools : My Devices : Any Device)  @tags(Activity : Thinking : Brainstorming, OmniFocus)
+	- Define mission/vision statements @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming)
+	- Define scenarios (at minimum, utopia and dystopia) that I might anticipate as potential futures @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming)
+	- Define goals and successful outcomes @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming)
+	- Identify polarities related to the work @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming)
+	- Define the systems I need to operate effectively @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming)
+	- Brainstorm how to measure and evaluate my progress @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming)
+		- Define lagging measures of success in context of my principles, vision, and desired outcomes @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming)
+		- Define leading measures of success in context of my principles, vision, and desired outcomes @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming)
+	- Brainstorm what to do @context(Activity : Thinking : Brainstorming)
+	- Organizing @parallel(false) @context(Tools : My Devices : Any Device)
+		- Identify components and sub-projects @tags(Activity : Thinking : Brainstorming)
+			- Identify what needs to happen to make the whole thing happen (e.g. dependencies, resources, etc) @tags(Activity : Thinking : Brainstorming)
+			- Identify the conditions of the environment needed to ensure what I want happens happens @tags(Activity : Thinking : Brainstorming)
+			- Create/check outlines, bulleted lists, etc for review and control @tags(Activity : Considerations)
+			- Identify existing habits that need to be changed or dismantled @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming, Tools : Applications : Habitify)
+			- Identify new habits to build @context(Tools : My Devices : Any Device) @tags(Activity : Thinking : Brainstorming, Tools : Applications : Habitify)
+			- Set up OmniFocus project @context(Anywhere) @tags(Stations : OmniFocus)
+		- Define fitness functions for me to check my progress against goals @tags(Coding)
+	- Next actions
+		- Determine next actions for independent components @context(Stations : OmniFocus)
+		- Identify the next action for planning to happen @context(Stations : OmniFocus)
+	- Consider reflecting on the mind map @context(Considerations) @repeat-method(start-after-completion) @tags(Add Link to Task) @repeat-rule(FREQ=DAILY)
+- Ensure I maintain perspective on the actions I take
+Based on Life Plan Concept from Living Forward.
+	- Check that I'm acknowledging my reality @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY;INTERVAL=1) @autodone(true)
+Practice radical acceptance by identifying key facets of my current experience.
+	- Check that I'm aligned with my purpose and principles @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY;INTERVAL=1) @autodone(true) 
+	- Check that I'm acting in alignment with my envisioned futures  @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY;INTERVAL=1) @autodone(true)
+	- Check that I'm acting in alignment with my goals and objectives  @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY;INTERVAL=1) @autodone(true)
+- Monitor my performance in this area
+- Monitor my health in this area
+- Manage habits to improve my health in this area
