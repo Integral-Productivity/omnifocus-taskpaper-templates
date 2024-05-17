@@ -1,0 +1,64 @@
+- Closing the Workday Routine @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing)
+	- Review: Closing the Workday Routine @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : My Devices : Any Device, Meta-Task : Task Processing : Focus Project) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+	- Capture and collect @parallel(true) @autodone(true)
+		- Review calendar events for missing meeting notes or actions @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : Applications : Fantastical) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR)
+
+		- Process meeting notes from the day for follow-ups @parallel(true) @autodone(false) @estimate(15m) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : Applications : Agenda, Tools : My Devices : Any Device, Meta-Task : Task Processing : Follow Link in Task) @repeat-method(start-after-completion) @repeat-rule(FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR)
+			 agenda://today
+			 
+		- Review 'On the Agenda' for additional notes to process @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : Applications : Agenda, Meta-Task : Task Processing : Follow Link in Task) @repeat-method(due-after-completion) @repeat-rule(FREQ=DAILY)
+			agenda://x-callback-url/on-the-agenda
+
+		- Check/confirm availability and readiness of resources for appointments on following work day @parallel(false) @autodone(false) @context(Tools : Applications : Fantastical) @tags(Tools : Applications : Fantastical, Tools : My Devices : Any Device) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			fantastical2:/// <fantastical:///>
+
+	- Clarify and process @parallel(true) @autodone(false)
+		- Process my email inbox to zero @parallel(false) @autodone(false) @context(Tools : Applications : Airmail 3) @tags(Tools : Applications : Airmail 3, Tools : My Devices : Any Device) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			omnifocus:///inbox
+			
+
+		- Process OmniFocus inbox @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device, Stations : OmniFocus) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			omnifocus:///perspective/inbox <omnifocus:///Inbox>
+
+		- Review File & Flow context @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : My Devices : Any Device, Meta-Task : Task Processing : Follow Link in Task) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			omnifocus:///perspective/Filing
+
+	- Organize @parallel(true) @autodone(false)
+		- Ensure I am intentional with my time and attention @parallel(true) @autodone(false)
+			- Flag objectives for the following day @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : My Devices : Any Device, Stations : OmniFocus, Meta-Task : Task Processing : Follow Link in Task) @time-zone(current) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR)
+				omnifocus:///perspective/30,000%2520ft%2520%25E2%2580%2593%2520Goals%2520and%2520Objectives%2520by%2520Horizon
+
+			- Check Reclaim and update my calendar with focused work sessions as commitments to getting started on work   @parallel(true) @autodone(false) @context(Activity : File & Flow) @tags(Activity : File & Flow) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+				https://app.reclaim.ai
+				
+	- Reflect and review @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device) @time-zone(current)
+		- Capture new confrontations or emotional challenges @parallel(false) @autodone(false) @estimate(5m) @context(Activity : Considerations) @tags(Activity : Considerations, Tools : Applications : Day One, Tools : Applications : Moodnotes, Tools : My Devices : Any Device : Any iOS Device : Caraçoes, Meta-Task : Task Processing : Follow Link in Task) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			moodnotes:///
+			dayone:///
+
+		- Reflect on my work, my activities, my plans for the day @parallel(false) @autodone(false) @estimate(20m) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device, Meta-Task : Task Processing : Follow Link in Task) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			Dayone:///
+
+		- Develop questions, new ideas, and “what if” hypotheses @parallel(false) @autodone(false) @estimate(2m) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			Capture questions in Bear; "what if" hypotheses in OmniFocus 
+
+		- Capture any recent decisions I made @parallel(true) @autodone(false) @context(Activity : Considerations) @tags(Activity : Considerations, Tools : Internet Connection, Stations : Airtable, Meta-Task : Task Processing : Follow Link in Task) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			https://airtable.com/tblhBC8zmrhYAMAbK/viwWcML5BcTBRn9xf?blocks=hide <https://trello.com/b/k6k11w1o/decisions>
+
+		- Journal about what important things I accomplished today @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : My Devices : Any Device, Meta-Task : Task Processing : Follow Link in Task) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR)
+			dayone:///post?journal=Vocational
+
+	- Reset my workspaces / stations @parallel(true) @autodone(false)
+
+	- Do and engage @parallel(true) @autodone(false)
+		- Review Considerations Perspective @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device, Meta-Task : Task Processing : Follow Link in Task) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+			omnifocus:///perspective/Considerations
+
+	- Review tomorrow items @parallel(true) @autodone(false) @context(Meta-Task : Task Preprocessing : Rearrange) @tags(Meta-Task : Task Preprocessing : Rearrange)
+		agenda://x-callback-url/open-overview?title=Tomorrow
+
+	- Ground and release to transition back to my personal life @parallel(true) @autodone(false)
+		- Meditate: Breathe @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : My Devices : Any Device) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+
+	- Check my mailbox and package locker for new arrivals @parallel(true) @autodone(false) @context(Activity : Sessions & Routines : Workday Closing) @tags(Activity : Sessions & Routines : Workday Closing, Tools : Applications : Package Concierge) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+		
