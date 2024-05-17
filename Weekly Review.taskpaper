@@ -1,0 +1,48 @@
+- Weekly Review @parallel(false) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+	- Complete Review Process @parallel(false) @autodone(true) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device, Meta-Task : Task Postprocessing : Drop After Due Date If Not Complete) @due(2024-05-19 17:00) @defer(2024-05-16 00:00) @repeat-method(fixed) @repeat-rule(FREQ=WEEKLY)
+		- Default Review @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Clear inbox @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+				omnifocus:///inbox
+				
+
+			- Perform default review @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+				omnifocus:///perspective/Review
+
+		- Folder Review @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			Review the contents of the folder for major missing items
+
+			- Review folder: Vocational @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device, Meta-Task : Task Processing : Follow Link in Task)
+				[insert link to Vocational folder]
+
+			- Review folder: Personal @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review folder: Professional Development @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review folder: GTD @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review folder: Wellness @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review folder: Family @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review folder: Social @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review folder: Financial @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+		- Context and Perspective Review @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review Agendas @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review Errands @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review all tags @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review Forecast perspective  @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+				omnifocus:///perspective/Forecast
+
+			- Review completed projects  @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+				omnifocus:///perspective/Completed%20Projects
+
+			- Review list of perspectives  @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review project trigger list @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+		- Finalize Review @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review day's tasks @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review Inbox @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review Land & Sea @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+		- Database Cleanup  @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Review attachments in OmniFocus database  @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Archive data of 2 weeks or older @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Sync all devices @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+			- Rebuild database @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+		- Pause: What is on your mind? @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+	- Check in on my Life Accounts @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device)
+	
+	- Review/revise 'Living Forward - Your Ideal Week' (Follow link in task) @parallel(true) @autodone(false) @context(Tools : My Devices : Any Device) @tags(Tools : My Devices : Any Device, Tools : Internet Connection) @defer(2017-05-18 22:00) @time-zone(current) @repeat-method(start-after-completion) @repeat-rule(FREQ=WEEKLY)

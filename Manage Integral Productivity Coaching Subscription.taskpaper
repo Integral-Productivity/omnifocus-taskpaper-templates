@@ -1,0 +1,43 @@
+- Manage my Integral Productivity coaching subscription @parallel(true) @autodone(false)
+	- Ensure I make the most of my coaching subscription @parallel(true) @autodone(false)
+		- Define what I want from my coaching experience @parallel(true) @autodone(false)
+			- Write down the goals I want to address over the term of my coaching @parallel(true) @autodone(false) @context(Activity : Production : Writing) @tags(Activity : Production : Writing)
+				Consider the breadth of changes I want to make, including changes to my environment, behaviors, skills & capabilities, beliefs & values, identity, and spiritual concerns.
+
+			- Brainstorm ideas for how I'll measure or sense the outcomes and results that I want, including the evidence I might need @parallel(true) @autodone(false) @context(Activity : Cognition : Brainstorming) @tags(Activity : Cognition : Brainstorming)
+			- Note potential issues that I want to raise for discussion with my coach @parallel(true) @autodone(false) @context(Activity : Cognition : Brainstorming) @tags(Activity : Cognition : Brainstorming) @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY)
+		- Engage my coach in 1:1 sessions @parallel(true) @autodone(false)
+			- Ensure I have time scheduled with my coach in the next week or two @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY)
+			- Debrief myself on sessions with my coach to capture reactions, next actions, etc @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY;INTERVAL=2)
+		- Engage in coaching-related activities outside my sessions  @parallel(true) @autodone(false)
+			- Check my email for Quenza activities and pathways assigned to me @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY)
+			- Check in with my coach over DM on how I'm doing @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY)
+		- Leverage the Integrators Community members and resources to make more of my experience @parallel(true) @autodone(false)
+			- Check the Offers and Requests section for new ideas @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY)
+			- Review the Actualization Resources space group for new ideas, concepts, or solutions I might want to try for myself @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY)
+		- Try practicing concepts from my coaching in life @parallel(true) @autodone(false)
+			- Look at my calendar for opportunities in the next week for me to practice something from my coaching @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY)
+			- DM my coach to let them know how something worked or didn't work, and how it could be better @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY)
+	- Give my coach feedback on how things are going @parallel(true) @autodone(false)
+		- Check my email for session feedback surveys from Quenza @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY)
+		- Talk to my coach about how I'm feeling about the coaching experience @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY;INTERVAL=4)
+	- Maintain perspective on my coaching experience @parallel(true) @autodone(false)
+		- Check for progress along my Coaching Development Plan and add comments/notes about what's happened or missing @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=MONTHLY)
+		- Consider or make revisions to my Coaching Development Plan to capture new concerns and emerging learning @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=MONTHLY)
+		- Journal about how my coaching experience is going @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=MONTHLY)
+			What was planned? What's changed? What impact is it making?
+
+		- Consider how well the coaching relationship still serves my needs and what might need to change to better support me @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=MONTHLY;INTERVAL=3)
+	- Help others get benefit from coaching @parallel(true) @autodone(false)
+		- Start a conversation with someone close to me about what I'm covering in coaching @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY;INTERVAL=2)
+		- Share gems from the Integral Productivity social media accounts with people @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=WEEKLY;INTERVAL=2)
+		- Consider telling my friends about my coaching experience @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=MONTHLY;INTERVAL=3)
+		- Share a testimonial about my coaching experience @parallel(true) @autodone(false) @repeat-method(due-after-completion) @repeat-rule(FREQ=MONTHLY;INTERVAL=6)
+	- Consciously close the coaching relationship @parallel(true) @autodone(false)
+		Even good things come to an end. Let's make it a good closing.
+
+		- Talk to my coach about closing the relationship @parallel(true) @autodone(false)
+			What's changed in my world from starting coaching to today
+			What's worked, what hasn't, what could have been better.
+
+		- Export my data from Quenza @parallel(true) @autodone(false)
