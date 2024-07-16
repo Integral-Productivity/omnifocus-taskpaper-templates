@@ -1,0 +1,36 @@
+Managing «Boss Name»: 
+- Initial Setup & Ongoing Assessment @parallel(false) @autodone(true) 
+	- Create a "Managing Your Boss" note for «Boss Name» in my note-taking system
+	- Seek to understand their context @repeat-method(start-after-completion) @repeat-rule(FREQ=MONTHLY;INTERVAL=3) @autodone(true) @parallel(true) 
+		- List their goals and objectives
+		- List their pressures
+		- List their strengths, weaknesses, and blind spots
+		- Summarize their preferred work style
+		Consider working hours, responsiveness in communication to others, learning
+	- Assess yourself and your needs @repeat-method(start-after-completion) @repeat-rule(FREQ=MONTHLY;INTERVAL=3) @autodone(true) @parallel(true) 
+		- List your strengths and weaknesses
+		- Summarize your personal work style
+		- Identify or describe your predisposition toward dependence on authority figures
+	- Identify approaches to bridge potential gaps @parallel(false) @autodone(true) @repeat-method(start-after-completion) @repeat-rule(FREQ=MONTHLY;INTERVAL=3) 
+		- Ensure the relationship fits both your needs and styles
+			- Identify bridges between your needs and styles
+			What accommodations of time, resources, and methods might you ask them for so you can leverage your strengths and style while addressing their needs? 
+		- Ensure mutual expectations characterize the relationship
+			- Write down expectations of my performance as I understand and interpret them
+			- Write down expectations of my boss's performance as I understand and interpret them as they relate to my work
+			- Write down my expectations of how my boss will support my performance as I understand and interpret them
+			- Discuss and confirm the expectations of my performance with my boss @tags(People : «Boss Name»)
+			- Propose and discuss bridges/accommodations @tags(People : «Boss Name»)
+		- Ensure I'm selectively using my boss's time and resources
+			- Propose and discuss preferences for communication formats 
+-  Develop and maintain the relationship @parallel(true) 
+	- Ensure mutual expectations characterize the relationship
+		- Check-in with my boss regarding fulfillment and availability of requested accommodations @tags(People : «Boss Name») @repeat-method(start-after-completion) @repeat-rule(FREQ=DAILY) 
+	- Ensure I keep my boss, «Boss Name», informed of changes
+		- Update my boss on changes to my work commitments and activity status @tags(People : «Boss Name»)
+		- Update my boss on changes to my work experience, environment, and related influencing factors @tags(People : «Boss Name»)
+		Share the changes in time constraints, relationships with people at work, responsibilities at work and home, etc., within my privacy boundaries.
+	- Ensure our relationship is based on dependability and honesty @parallel(true) 
+		- Create a journal entry, reflecting on the quality of the relationship as I anticipated versus how I experienced it @repeat-method(start-after-completion) @repeat-rule(FREQ=MONTHLY;INTERVAL=1)
+		- Consider setting up a Crucial Conversation or Confrontation with my boss to share key issues that I'm facing @repeat-method(start-after-completion) @repeat-rule(FREQ=MONTHLY;INTERVAL=1)
+
