@@ -1,0 +1,17 @@
+name: omnifocus-taskpaper-templates
+id: ari:cloud:compass:20ca5870-2e55-4339-bd2f-537fb9187fdc:component/329cd31e-a4c7-44b2-8b7a-3e051e176517/acb5fad8-6fea-48c1-8f79-f7abbecd589c
+description: null
+configVersion: 1
+typeId: OTHER
+ownerId: null
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/Integral-Productivity/omnifocus-taskpaper-templates
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
