@@ -1,0 +1,3 @@
+Set up Class of Service tags in Omnifocus:
+- Verify addition of Class of Service tag set @parallel(true) @autodone(false) @context(Class of Service) @tags(Class of Service, Class of Service : Expedited, Class of Service : Fixed Delivery Date, Class of Service : Standard, Class of Service : Intangible)
+	omnifocus:///perspective/tags

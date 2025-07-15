@@ -1,0 +1,3 @@
+- Verift the addition of the Problems Types tags to the Tags perspective @parallel(true) @autodone(false) @context(Problem Type) @tags(Problem Type, Problem Type : Troubleshooting, Problem Type : Current Condition, Problem Type : Target Condition, Problem Type : Open Ended)
+	omnifocus:///perspective/tags
+	From "The Four Types of Problem"

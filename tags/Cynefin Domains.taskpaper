@@ -1,0 +1,2 @@
+- Verify the creation of Cynefin Domain tags @parallel(true) @autodone(false) @context(Cynefin Domain) @tags(Cynefin Domain, Cynefin Domain : Simple, Cynefin Domain : Complicated, Cynefin Domain : Complex, Cynefin Domain : Chaotic, Cynefin Domain : Disordered)
+	omnifocus:///perspectives/tags

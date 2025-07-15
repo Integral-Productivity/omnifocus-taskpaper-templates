@@ -1,0 +1,2 @@
+- Verify the addition of the Improvement Stage tags to the database using Tags perspective @parallel(true) @autodone(false) @context(Improvement Stage) @tags(Improvement Stage, Improvement Stage : Scan, Improvement Stage : Plan, Improvement Stage : Do, Improvement Stage : Check, Improvement Stage : Adjust)
+	Based on the Deming Cycle.
