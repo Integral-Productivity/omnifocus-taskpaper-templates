@@ -3,7 +3,7 @@ id: ari:cloud:compass:20ca5870-2e55-4339-bd2f-537fb9187fdc:component/329cd31e-a4
 description: null
 configVersion: 1
 typeId: OTHER
-ownerId: ari:cloud:identity::team/5f9ba0cf-8f74-40a7-aac2-9bba1d35c275
+ownerId: ari:cloud:identity::team/363e62d3-6bfa-4642-b569-78d4133e046b
 fields:
   tier: 4
 links:
