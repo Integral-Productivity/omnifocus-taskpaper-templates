@@ -3,7 +3,7 @@ id: ari:cloud:compass:20ca5870-2e55-4339-bd2f-537fb9187fdc:component/329cd31e-a4
 description: null
 configVersion: 1
 typeId: OTHER
-ownerId: kraigparkinson@integralproductivity.com
+ownerId: ari:cloud:identity::team/5f9ba0cf-8f74-40a7-aac2-9bba1d35c275
 fields:
   tier: 4
 links:
