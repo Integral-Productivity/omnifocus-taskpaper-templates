@@ -1,0 +1,76 @@
+{
+  "name": "OmniFocus TaskPaper",
+  "description": "Syntax highlighting for OmniFocus-extended TaskPaper template files, including projects, tasks, completed tasks, OmniFocus attributes, and URL deep links.",
+  "author": "Integral Productivity",
+  "version": "1.0",
+  "fileExtension": "taskpaper",
+  "elements": [
+    {
+      "type": "line",
+      "match": "^(\\t*)(-\\s)(.*)(@done)(.*)",
+      "exclusive": true,
+      "scopes": ["comment"],
+      "elements": []
+    },
+    {
+      "type": "line",
+      "match": "^(\\t*)(-\\s)(.*)",
+      "exclusive": true,
+      "scopes": ["markup.list"],
+      "elements": [
+        {
+          "type": "inline",
+          "match": "(@[a-zA-Z][a-zA-Z-]*)(\\()([^)]*)(\\))",
+          "exclusive": false,
+          "scopes": ["keyword.operator", "text", "string", "text"]
+        },
+        {
+          "type": "inline",
+          "match": "@[a-zA-Z][a-zA-Z-]*(?!\\()",
+          "exclusive": false,
+          "scopes": ["keyword.operator"]
+        },
+        {
+          "type": "inline",
+          "match": "[a-zA-Z][a-zA-Z0-9+.-]*://[^\\s<>\"'\\]]*",
+          "exclusive": false,
+          "scopes": ["markup.underline.link"]
+        },
+        {
+          "type": "inline",
+          "match": "«[^»]*»|\\[\\[[^\\]]+\\]\\]|\\[[^\\]]+\\]",
+          "exclusive": false,
+          "scopes": ["variable"]
+        }
+      ]
+    },
+    {
+      "type": "line",
+      "match": "^(\\t*)(?!-\\s)([^\\t\\n].*?):[\\t ]*$",
+      "exclusive": true,
+      "scopes": ["markup.heading"],
+      "elements": []
+    },
+    {
+      "type": "line",
+      "match": "^[\\t ]*([a-zA-Z][a-zA-Z0-9+.-]*://[^\\s<>\"'\\]]*)",
+      "exclusive": false,
+      "scopes": ["text"],
+      "elements": [
+        {
+          "type": "inline",
+          "match": "[a-zA-Z][a-zA-Z0-9+.-]*://[^\\s<>\"'\\]]*",
+          "exclusive": false,
+          "scopes": ["markup.underline.link"]
+        }
+      ]
+    },
+    {
+      "type": "line",
+      "match": "^\\t+[^-\\t].*",
+      "exclusive": false,
+      "scopes": ["text"],
+      "elements": []
+    }
+  ]
+}
