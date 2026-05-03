@@ -4,73 +4,51 @@
   "author": "Integral Productivity",
   "version": "1.0",
   "fileExtension": "taskpaper",
-  "elements": [
+  "patterns": [
     {
-      "type": "line",
       "match": "^(\\t*)(-\\s)(.*)(@done)(.*)",
       "exclusive": true,
-      "scopes": ["comment"],
-      "elements": []
+      "captures": {
+        "0": { "scope": "comment" }
+      }
     },
     {
-      "type": "line",
-      "match": "^(\\t*)(-\\s)(.*)",
-      "exclusive": true,
-      "scopes": ["markup.list"],
-      "elements": [
-        {
-          "type": "inline",
-          "match": "(@[a-zA-Z][a-zA-Z-]*)(\\()([^)]*)(\\))",
-          "exclusive": false,
-          "scopes": ["keyword.operator", "text", "string", "text"]
-        },
-        {
-          "type": "inline",
-          "match": "@[a-zA-Z][a-zA-Z-]*(?!\\()",
-          "exclusive": false,
-          "scopes": ["keyword.operator"]
-        },
-        {
-          "type": "inline",
-          "match": "[a-zA-Z][a-zA-Z0-9+.-]*://[^\\s<>\"'\\]]*",
-          "exclusive": false,
-          "scopes": ["markup.underline.link"]
-        },
-        {
-          "type": "inline",
-          "match": "«[^»]*»|\\[\\[[^\\]]+\\]\\]|\\[[^\\]]+\\]",
-          "exclusive": false,
-          "scopes": ["variable"]
-        }
-      ]
-    },
-    {
-      "type": "line",
       "match": "^(\\t*)(?!-\\s)([^\\t\\n].*?):[\\t ]*$",
       "exclusive": true,
-      "scopes": ["markup.heading"],
-      "elements": []
+      "captures": {
+        "0": { "scope": "markup.heading" }
+      }
     },
     {
-      "type": "line",
-      "match": "^[\\t ]*([a-zA-Z][a-zA-Z0-9+.-]*://[^\\s<>\"'\\]]*)",
-      "exclusive": false,
-      "scopes": ["text"],
-      "elements": [
-        {
-          "type": "inline",
-          "match": "[a-zA-Z][a-zA-Z0-9+.-]*://[^\\s<>\"'\\]]*",
-          "exclusive": false,
-          "scopes": ["markup.underline.link"]
-        }
-      ]
+      "match": "^(\\t*)(-\\s)(.*)",
+      "captures": {
+        "0": { "scope": "markup.list" }
+      }
     },
     {
-      "type": "line",
-      "match": "^\\t+[^-\\t].*",
-      "exclusive": false,
-      "scopes": ["text"],
-      "elements": []
+      "match": "(@[a-zA-Z][a-zA-Z-]*)(\\()([^)]*)(\\))",
+      "captures": {
+        "1": { "scope": "keyword.operator" },
+        "3": { "scope": "string" }
+      }
+    },
+    {
+      "match": "@[a-zA-Z][a-zA-Z-]*(?!\\()",
+      "captures": {
+        "0": { "scope": "keyword.operator" }
+      }
+    },
+    {
+      "match": "[a-zA-Z][a-zA-Z0-9+.-]*://[^\\s<>\"'\\]]*",
+      "captures": {
+        "0": { "scope": "markup.underline.link" }
+      }
+    },
+    {
+      "match": "«[^»]*»|\\[\\[[^\\]]+\\]\\]|\\[[^\\]]+\\]",
+      "captures": {
+        "0": { "scope": "variable" }
+      }
     }
   ]
 }
